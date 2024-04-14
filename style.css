@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: rgba(194, 155, 162, 0.301);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  max-width: 500px;
+  display: flex;
+  box-sizing: border-box;
+  /* min-height: 100vh; */
+}
+
+.right-side {
+  padding: 16px;
+  background-color: white;
+}
+
+.right-side button {
+  background-color: rgba(0, 51, 0, 0.959);
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  padding: 12px 40px;
+}
